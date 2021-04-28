@@ -1,0 +1,11 @@
+﻿@function headings($from: 1, $to: 6) {
+    @if ($from == $to) {
+        @return '.h#{$from}, h#{$from}';
+    }
+    @else {
+        @return '.h#{$from}, h#{$from},' + headings($from+1, $to);
+    }
+}
+@function convertToREM($size) {
+    @return #{$size/16}rem;
+}

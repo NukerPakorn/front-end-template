@@ -1,0 +1,30 @@
+.owl-carousel {
+  .owl-dots {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    text-align: center;
+  }
+  button.owl-dot {
+    &:last-child {
+      margin-right: 0;
+    }
+    margin-right: 8px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #adadb9;
+    border-radius: 100%;
+    vertical-align: middle;
+    span {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+    &.active {
+      width: 11px;
+      height: 11px;
+      border-color: $primary;
+      background-color: $primary;
+    }
+  }
+}

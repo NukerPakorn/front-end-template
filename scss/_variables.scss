@@ -1,0 +1,16 @@
+// color
+$primary: #594f74;
+$white: #ffffff;
+$black: #000000;
+
+$highlight-font-family: 'Kanit', sans-serif;
+
+// Breakpoint
+$breakpoints: (
+    'xs' : 460px,
+    'sm' : 576px,
+    'md' : 768px,
+    'lg' : 992px,
+    'xl' : 1200px,
+    'xxl': 1400px
+);

@@ -1,0 +1,10 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-size: 1rem;
+}
+h1, h2, h3, h4 {
+  font-family: $highlight-font-family;
+  color: $primary;
+}
