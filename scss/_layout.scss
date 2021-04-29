@@ -1,7 +1,10 @@
 .main-content {
   flex: 1 0 auto;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-image: url('/assets/images/bg.jpg');
+  &.bg-image {
+    // background-repeat: no-repeat;
+    // background-position: top center;
+    // background-size: cover;
+    // background-image: url('/assets/images/bg.jpg');
+    background: linear-gradient(174deg, #f7f5fb 80%, #fff 20%);
+  }
 }

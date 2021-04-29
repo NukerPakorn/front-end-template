@@ -1,0 +1,17 @@
+.heading-highlight {
+  .title {
+    &:before {
+      content: '';
+      display: inline-block;
+      background-image: linear-gradient(to right, #e9eaef -18%, #b9b9c3 122%);
+      width: 52px;
+      height: 3px;
+      margin-right: 18px;
+      vertical-align: middle;
+    }
+  }
+  .sub-heading {
+    font-family: $highlight-font-family;
+    font-size: 18px;
+  }
+}
