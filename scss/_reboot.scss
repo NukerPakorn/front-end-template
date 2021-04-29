@@ -8,3 +8,18 @@ h1, h2, h3, h4 {
   font-family: $highlight-font-family;
   color: $primary;
 }
+
+a {
+  &.text-white {
+    color: rgba($white, 0.75) !important;
+    &:hover {
+      color: $white !important;
+    }
+  }
+  &.text-white-50 {
+    color: rgba($white, 0.5) !important;
+    &:hover {
+      color: $white !important;
+    }
+  }
+}

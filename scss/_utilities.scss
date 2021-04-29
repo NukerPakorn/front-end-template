@@ -1,8 +1,34 @@
 .bg-white {
   background-color: $white !important;
 }
+.bg-linear-gradient-v {
+  background-image: linear-gradient(to bottom, #6f6eb2 3%, #352c64 106%);
+
+  hr {
+    border-color: rgba($white, 0.15);
+  }
+}
+.border-white-50 {
+  border-color: rgba($white, 0.5) !important;
+}
 .text-muted {
   color: #84848f !important;
+}
+.text-white {
+  color: $white !important;
+}
+.text-white-50 {
+  color: rgba($white, 0.5) !important;
+}
+.nav {
+  &.item-divider-right {
+    .nav-item {
+      border-right: 1px solid #84848f;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
 }
 .overlay-dark {
   background-color: rgba($black, 0.9);
